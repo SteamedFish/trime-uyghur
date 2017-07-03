@@ -10,3 +10,8 @@
 
 * 不知道怎么新建一个独立的输入法键盘方案，目前是放到 `trime.custom.yaml` 里面的，不是太妥当
 * 英维之间的互相切换有点问题，英语模式切到维语模式略繁琐。
+
+
+# 其他
+
+如果你使用的不是 trime（安卓版本 rime）而是电脑版本的 RIME 的话，请使用 [rime-uyghur](https://github.com/biopolyhedron/rime-uyghur) 插件
