@@ -4,6 +4,10 @@
 # 使用
 拷贝到 `/sdcard/RIME/` 目录下，然后重新部署
 
+效果
+
+![trime-uyghur.png](trime-uyghur.png)
+
 # BUG
 
 对 rime 和 trime 都不熟悉，只是个初学者，已知 bug:
