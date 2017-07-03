@@ -1,0 +1,23 @@
+﻿# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: uyghur
+  name: ئۇيغۇر تىلى
+  version: "2017.07.03"
+  author:
+    - SteamedFish <steamedfish@hotmail.com>
+  description: |
+    維語爾語（阿拉伯字母）。
+
+engine:
+  processors:
+    - ascii_composer
+    - punctuator       # 處理符號按鍵
+    - selector
+    - express_editor
+  segmentors:
+    - punct_segmentor   # 劃界，與前後方的其他編碼區分開
+  translators:
+    - punct_translator  # 轉換
+

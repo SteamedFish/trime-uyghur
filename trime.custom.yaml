@@ -1,0 +1,22 @@
+customization:
+  distribution_code_name: ""
+  distribution_version: ""
+  generator: "Rime-JNI"
+  modified_time: "Fri Apr 28 00:47:42 2017"
+  rime_version: 1.2.9
+patch:
+  "style/color_scheme": default
+  "style/keyboards":
+    - .default
+    - default
+    - letter
+    - qwerty
+  "preset_keyboards/uyghur/import_preset" : uyghur_keyboard
+  "preset_keyboards/uyghur/ascii_mode": 1
+  "preset_keyboards/uyghur_keyboard":
+    author: "SteamedFish"
+    name: "维语键盘"
+    ascii_mode: 0
+    height: 55
+    width: 10
+    keys: [{click: چ}, {click: ۋ}, {click: ې, long_click: "ئې"}, {click: ر}, {click: ت}, {click: ي}, {click: ۇ, long_click: "ئۇ"}, {click: ڭ}, {click: و, long_click: "ئو"}, {click: پ, long_click: Hide}, {width: 5}, {click: ھ, long_click: "«"}, {click: س, long_click: "»"}, {click: د, long_click: "ژ"}, {click: ا, long_click: "ف"}, {click: ە, long_click: "گ"}, {click: ى, long_click: "خ"}, {click: ق, long_click: "ج"}, {click: ك, long_click: "ۆ"}, {click: ل, long_click: "لا"}, {width: 5}, {click: Shift_L, send_bindings: false, width: 15}, {click: ز, long_click: "("}, {click: ش, long_click: ")"}, {click: غ, long_click: "؛"}, {click: ۈ, long_click: ":"}, {click: ب, long_click: "!"}, {click: ن, long_click: "."}, {click: م, long_click: "،"}, {click: BackSpace, width: 15}, {click: Keyboard_switch, long_click: Menu, width: 15, label: "英维"}, {click: Keyboard_symbols, long_click: Keyboard_number}, {click: "،", long_click: ">"}, {click: space, swipe_right: Schema_switch, width: 30}, {click: ., long_click: "<"}, {click: "ئ", long_click: "؟"}, {click: Return, long_click: CommitComment, width: 15}]
